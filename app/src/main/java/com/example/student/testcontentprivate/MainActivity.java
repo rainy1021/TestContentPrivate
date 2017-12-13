@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             Log.d("rain","Id:"+cursor.getInt(0));
             Log.d("rain","Title:"+cursor.getString(1));
             Log.d("rain","Price:"+cursor.getFloat(2));
+            //Log.d("rain","test");
+
         }
 
         /*ContentValues contentValues  = new ContentValues();
